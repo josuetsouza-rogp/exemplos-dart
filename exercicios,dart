@@ -1,0 +1,21 @@
+void main() {
+  String nome = "josue";
+  int idade = 16;
+  double altura = 1.85;
+  bool estudante = true;
+
+  print("Meu nome e $nome ");
+  print("Idade? $idade anos ");
+  print("Ano que vem tera ${idade + 1} anos");
+  print("altura: $altura metros estudante: $estudante");
+  //constantes
+
+  const pi = 3.14159;
+  final anonascimento = 2010;
+  print("O valor do pi e$pi ");
+  print("Ano de nascimento $anonascimento");
+
+  print("$nome, $pi, $anonascimento");
+
+  
+}
