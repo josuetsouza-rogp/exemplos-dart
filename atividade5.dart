@@ -4,7 +4,7 @@ void main() {
 
   print('Antes da troca: a = $a, b = $b');
 
-  // Troca usando variável auxiliar
+ 
   int temp = a;
   a = b;
   b = temp;
